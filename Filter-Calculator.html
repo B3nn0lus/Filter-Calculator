@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Filter Calculation</title>
+    <link href="Filter-Calculator.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <div id="div1">
+
+        <h1>Filter Calculator</h1>
+
+        <form method="get">
+            <br><br><br>
+            <label for="Capacity" id="#Capacity">Capacity: </label>
+            <input type="number" id="#Capacity" name="Capacity">
+            <select id="#CapacityS">
+                <option id="F">F</option>
+                <option id="nF">nF</option>
+                <option id="uF">uF</option>
+            </select>
+            <br><br><br>
+            <label for="Resistance" id="#Resistance">Resistance: </label>
+            <input type="number" id="#Resistance" name="Resistance">
+            <select id="#ResistanceS">
+                <option id="OHM">&#8486;</option>
+                <option id="KOHM">K&#8486;</option>
+            </select>
+            <br><br><br>
+            <label for="Cut-Frequency" id="#Cut-Frequency">Cutoff Frequency: </label>
+            <input type="number" id="#Cut-Frequency" name="Cut-Frequency">
+            <select id="#CutS">
+                <option id="Hz">Hz</option>
+                <option id="KHz">KHz</option>
+                <option id="GHz">GHz</option>
+            </select>
+            <br><br><br>
+            <button type="button" id="#Calculate">CALCULATE</button>
+        </form>
+        <br><br><br>
+    </div>
+
+    <br><br><br>
+
+    <label for="MissingValue" id="#MissingValue">Missing Value: </label>
+    <br><br>
+    <output id="#MissingValue"></output>
+
+    <br><br><br>
+
+    <script src="Filter-Calculator.js" defer></script>
+
+</body>
+
+</html>
+</body>
+
+</html>

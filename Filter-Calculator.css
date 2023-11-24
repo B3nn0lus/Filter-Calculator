@@ -1,0 +1,26 @@
+body{
+    background-color: #2C2C54;
+    text-align: center;
+    color: #AAABB8;
+}
+
+div{
+    background-color: #474787;
+}
+
+button{
+    font-style: italic;
+    background-color: #2C2C54;
+    border-style: hidden;
+    width: 70%;
+    height: 70%;
+    cursor: pointer;
+}
+
+input{
+    background-color: #AAABB8;
+}
+
+select{
+    background-color: #AAABB8;
+}
